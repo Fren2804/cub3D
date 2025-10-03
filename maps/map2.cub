@@ -1,0 +1,15 @@
+NO ./textures/wickedtile4.png
+SO ./textures/wickedtile3.png
+WE ./textures/wickedcrystal1a-64x64.png
+EA ./textures/wickedcrystal1c-64x64.png
+F 64, 64, 64 
+C 112,163,204
+
+111111111111
+100000000001
+100000000001
+100001100001
+100001100001
+100N00000001
+100000000001
+111111111111
