@@ -61,6 +61,7 @@ void	ft_draw_1(t_app *app, t_render *r)
 			r->text_y = TEXT_H - 1;
 		if (app->is_door)
 		{
+			printf("door \n");
 			r->color = ft_texel_rgba(app->text_door, (unsigned int)r->text_x,
 					(unsigned int)r->text_y);
 			mlx_put_pixel(app->img, (unsigned int)r->x,

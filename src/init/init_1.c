@@ -63,6 +63,8 @@ void	ft_put_door(t_app *app)
 		}
 		y ++;
 	}
+	app->x_door = -3;
+	app->y_door = -3;
 }
 
 void	ft_choose_ini(t_app *app)

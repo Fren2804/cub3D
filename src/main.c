@@ -53,6 +53,7 @@ int	main(int argc, char *argv[])
 	if (!app.map)
 		return (1);
 	ft_choose_ini(&app);
+	map_print(app.map);
 	if (ft_check_textures(&app) || ft_init_mlx(&app))
 		return (1);
 	if (ft_hands(&app))

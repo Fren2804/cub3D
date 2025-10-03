@@ -39,7 +39,7 @@ static int	get_color(char **words, uint32_t *rgba)
 		if (!ft_is_int(words[i + 1]))
 			return (0);
 		color[i] = ft_atoi(words[i + 1]);
-		if (color[i] < 0 || color[i] > 255)
+		if (color[i] > 255)
 			return (0);
 	}
 	*rgba = (color[0] << 24) | (color[1] << 16) | color[2] << 8 | 0xff;
